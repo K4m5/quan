@@ -162,4 +162,35 @@
             }
         }
     }
+    .tripplan{
+        width: 100%;
+        padding: 0px;
+        .content{
+            width: 100%;
+            flex-wrap: wrap;
+
+            .left{
+                margin: 0;
+            }
+
+            .right{
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .contentt{
+        width: 100%;
+        flex-wrap: wrap;
+
+        .services{
+            width: 100%;
+            order: 1;
+            }
+            .anh{
+                width: 100%;
+                order: 2;
+        }
+    }
+    
 }
