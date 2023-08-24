@@ -164,7 +164,6 @@
     }
     .tripplan{
         width: 100%;
-        padding: 0px;
         .content{
             width: 100%;
             flex-wrap: wrap;
@@ -179,18 +178,39 @@
         }
     }
 
+    .class{
+        width: 100%;
+        .foter{
+
+            .services{
+                width: 100%;
+            }
+
+            .copyright{
+                .anh{
+                    width: 100%;
+                }
+            }
+
+            
+
+            .services{
+                text-align: center;
+                margin-top: 20px;
+                width: 100%;
+                }
     .contentt{
         width: 100%;
-        flex-wrap: wrap;
-
-        .services{
-            width: 100%;
-            order: 1;
+        flex-wrap: wrap;   
+        .Left{
+            input{
+                display: none;
             }
-            .anh{
-                width: 100%;
-                order: 2;
-        }
+        } 
+
     }
+
+}
+}
     
 }

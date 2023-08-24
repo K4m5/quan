@@ -339,12 +339,16 @@
             }
         }
     }
-   
+    
+    .class{
     .foter{
+        border-radius: 20px;
+
         .contentt{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: flex-start;
+            flex-wrap: wrap;
             .Left{
                 width: 270px;
                 height: auto;
@@ -365,8 +369,13 @@
                     justify-content: space-between;
                     padding: 8px 8px 8px 26px;
                     gap: 10px;
-                    border-radius: 24px;
-                    border: 2px solid var(--gray-5, #E6E8EC);
+                    input{
+                        margin-top: 20px;
+                        padding: 8px 8px 8px 26px;
+                        border-radius: 24px;
+                        border: 2px solid var(--gray-5, #E6E8EC);
+            
+                    }
                 }
             }
 
@@ -398,6 +407,7 @@
         }
         
     }
+}
     
     
 }
